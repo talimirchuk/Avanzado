@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Carrusel</h1>
+    <section class="contenedor">
+     <article class="profesor">profesor 1</article>
+     <article class="profesor">profesor 2</article>
+     <article class="profesor">profesor 3</article>
+     <article class="profesor">profesor 4</article>
+     <article class="profesor crack">profesor 5</article>
+    </section>
+
+    <style>
+    .contenedor{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgreen;
+        padding: 2rem;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .profesor{
+        background-color: blueviolet;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        color: white;
+        border-left: 5px solid white;
+    }
+    .crack{
+    border-left:5px solid  gold;
+    }
+
+    h1{
+     text-align: center;
+     margin: 1rem 0;
+    }
+    </style>
+</body>     
+</html>
