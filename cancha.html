@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="cancha">
+        <section class="zona">
+            <article class="jugador dibu">DIBU</article>
+        </section>
+        <section class="zona">
+            <article class="jugador">DEF</article>
+            <article class="jugador">DEF</article>
+            <article class="jugador">DEF</article>
+            <article class="jugador">DEF</article>
+        </section>
+        <section class="zona">
+            <article class="jugador">CEN</article>
+            <article class="jugador">CEN</article>
+            <article class="jugador">CEN</article>
+        </section>
+        <section class="zona">
+            <article class="jugador">AT</article>
+            <article class="jugador">AT</article>
+            <article class="jugador">AT</article>
+        </section>
+    </main>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+        body{
+            background-color: grey;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .cancha{
+    background-color: green;
+    border: .2rem solid white;
+    height: 90vh;
+    border-radius: 1rem;
+    aspect-ratio: 1/1;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .zona{
+        border: 3px dashed limegreen;
+        width: 100%;
+        height: 20%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .jugador{
+        background-color: cyan;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .dibu{
+        background-color: black;
+        color: white;
+    }
+    </style>
+</body>
+</html>
