@@ -1,0 +1,35 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.franja3 {
+    height: 3rem;
+    background-color: #656A73;
+}
+
+.franja4 {
+    height: 6rem;
+    background-color: #474F59;
+}
+
+.franja5 {
+    background-color: #656A73;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.franja6 {
+    height: 15rem;
+    background-color: #474F59;
+}
+
+.sidebar {
+    background-color: rgb(202, 130, 130);
+}
+
+.elementos {
+    background-color: #abd1ff;
+}
