@@ -10,7 +10,7 @@
 }
 
 .franja4 {
-    height: 6rem;
+    height: 5rem;
     background-color: #474F59;
 }
 
@@ -22,14 +22,40 @@
 }
 
 .franja6 {
-    height: 15rem;
+    height: 10rem;
     background-color: #474F59;
 }
 
 .sidebar {
-    background-color: rgb(202, 130, 130);
+    background-color: #474F59;
+    width: 90%;
+    height: 90%;
+    justify-self: end;
+    align-self: center;
 }
 
 .elementos {
-    background-color: #abd1ff;
+    background-color: #656A73;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    justify-self: center;
+    gap: 15px;
+}
+
+.video{
+    grid-column: span 3;
+    background-color: red;
+    margin-top: 27px;
+}
+
+.miniatura{
+    background-color: yellow;
+    height: 50%;
+    margin-top: 25px;
+}
+
+.item-miniatura {
+    display: flex;
+    flex-direction: column;
 }
