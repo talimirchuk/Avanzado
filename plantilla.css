@@ -168,10 +168,33 @@
     gap: 15px;
 }
 
-.video{
+.contenedor-video {
     grid-column: span 3;
-    background-color: #ff9978;
     margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.video {
+    background-color: #ff9978;
+    flex-grow: 1;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px; 
+}
+.flecha {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icono-play {
+    color: #ffffff;
+    font-size: 40px;
 }
 
 .miniatura{
